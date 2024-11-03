@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskPlanner", "TaskPlanner.csproj", "{435CDDF1-0425-4225-9739-48B7FD7D1CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Models", "Domain.Models\Domain.Models.csproj", "{3B77F04E-A13A-4C90-BF78-C547E82DB0E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Logic", "Domain.Logic\Domain.Logic.csproj", "{6C9813D2-C396-4F1A-8D7F-F3778543D444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{435CDDF1-0425-4225-9739-48B7FD7D1CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435CDDF1-0425-4225-9739-48B7FD7D1CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435CDDF1-0425-4225-9739-48B7FD7D1CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435CDDF1-0425-4225-9739-48B7FD7D1CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B77F04E-A13A-4C90-BF78-C547E82DB0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B77F04E-A13A-4C90-BF78-C547E82DB0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B77F04E-A13A-4C90-BF78-C547E82DB0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B77F04E-A13A-4C90-BF78-C547E82DB0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9813D2-C396-4F1A-8D7F-F3778543D444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9813D2-C396-4F1A-8D7F-F3778543D444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9813D2-C396-4F1A-8D7F-F3778543D444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9813D2-C396-4F1A-8D7F-F3778543D444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

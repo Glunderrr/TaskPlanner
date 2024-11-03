@@ -1,0 +1,13 @@
+D:\Programing\С#\TaskPlanner\Domain.Logic\bin\Debug\net6.0\Domain.Logic.deps.json
+D:\Programing\С#\TaskPlanner\Domain.Logic\bin\Debug\net6.0\Domain.Logic.dll
+D:\Programing\С#\TaskPlanner\Domain.Logic\bin\Debug\net6.0\Domain.Logic.pdb
+D:\Programing\С#\TaskPlanner\Domain.Logic\bin\Debug\net6.0\Domain.Models.dll
+D:\Programing\С#\TaskPlanner\Domain.Logic\bin\Debug\net6.0\Domain.Models.pdb
+D:\Programing\С#\TaskPlanner\Domain.Logic\obj\Debug\net6.0\Domain.Logic.csproj.AssemblyReference.cache
+D:\Programing\С#\TaskPlanner\Domain.Logic\obj\Debug\net6.0\Domain.Logic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing\С#\TaskPlanner\Domain.Logic\obj\Debug\net6.0\Domain.Logic.csproj.CoreCompileInputs.cache
+D:\Programing\С#\TaskPlanner\Domain.Logic\obj\Debug\net6.0\Domain.Logic.csproj.CopyComplete
+D:\Programing\С#\TaskPlanner\Domain.Logic\obj\Debug\net6.0\Domain.Logic.dll
+D:\Programing\С#\TaskPlanner\Domain.Logic\obj\Debug\net6.0\refint\Domain.Logic.dll
+D:\Programing\С#\TaskPlanner\Domain.Logic\obj\Debug\net6.0\Domain.Logic.pdb
+D:\Programing\С#\TaskPlanner\Domain.Logic\obj\Debug\net6.0\ref\Domain.Logic.dll
