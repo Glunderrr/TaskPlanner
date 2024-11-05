@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Models", "Domain.Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Logic", "Domain.Logic\Domain.Logic.csproj", "{6C9813D2-C396-4F1A-8D7F-F3778543D444}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Abstractions", "DataAccess.Abstractions\DataAccess.Abstractions.csproj", "{54AD8EF0-A50B-4595-8D4F-0FDB24BBCB80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{F45764C6-FC9D-4C77-93B6-84DEF63C04A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{6C9813D2-C396-4F1A-8D7F-F3778543D444}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C9813D2-C396-4F1A-8D7F-F3778543D444}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C9813D2-C396-4F1A-8D7F-F3778543D444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54AD8EF0-A50B-4595-8D4F-0FDB24BBCB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54AD8EF0-A50B-4595-8D4F-0FDB24BBCB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54AD8EF0-A50B-4595-8D4F-0FDB24BBCB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54AD8EF0-A50B-4595-8D4F-0FDB24BBCB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45764C6-FC9D-4C77-93B6-84DEF63C04A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45764C6-FC9D-4C77-93B6-84DEF63C04A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45764C6-FC9D-4C77-93B6-84DEF63C04A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45764C6-FC9D-4C77-93B6-84DEF63C04A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,9 +1,10 @@
 using System;
 using Domain.Models.Enums;
+using Newtonsoft.Json;
 
 namespace Domain.Models;
 
-public class WorkItem
+public class WorkItem : ICloneable
 {
     public WorkItem(
         int daysAfterToday,
@@ -28,6 +29,7 @@ public class WorkItem
         Random random = new Random();
         Array priorityValues = Enum.GetValues(typeof(Priority));
         Array complexityValues = Enum.GetValues(typeof(Complexity));
+
         DueDate = DateTime.Now.Date.AddDays(random.Next(3, 10));
         Priority = (Priority)priorityValues.GetValue(random.Next(priorityValues.Length))!;
         Complexity = (Complexity)complexityValues.GetValue(random.Next(complexityValues.Length))!;
@@ -36,11 +38,12 @@ public class WorkItem
         IsCompleted = random.Next(1) == 1;
     }
 
+    public Guid Id { get; } = Guid.NewGuid();
     public DateTime CreationDate = DateTime.Now.Date;
-    public DateTime DueDate { get; }
-    public Priority Priority { get; }
+    public DateTime DueDate { get; set; }
+    public Priority Priority { get; set; }
     public Complexity Complexity;
-    public string Title { get; }
+    public string Title { get; set; }
     public string Description;
     public bool IsCompleted;
 
@@ -53,5 +56,19 @@ public class WorkItem
             priority = Priority.ToString().ToUpper();
 
         return $"{Title}: due {DueDate:dd.MM.yyyy}, {priority}";
+    }
+
+    public object Clone()
+    {
+        return new WorkItem
+        {
+            CreationDate = CreationDate,
+            DueDate = DueDate,
+            Priority = Priority,
+            Complexity = Complexity,
+            Title = Title,
+            Description = Description,
+            IsCompleted = IsCompleted
+        };
     }
 }

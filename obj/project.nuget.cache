@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fwiCJ6NrUPE0NFAQzYg932M0CbyzYV2duAibzmu0b8KGEh1nAfoZ/ki7kJvids1c9nbGBj1DbmKYLWRXUOkw7A==",
+  "dgSpecHash": "qax3ocySB5m8/luhDxrp0p3urrHvQkL5kKEeJIVnz9sQPjlhO5k4Plv0BDwEO8GNiJ3MLwDAJ0yFuDKe6UGtpg==",
   "success": true,
   "projectFilePath": "D:\\Programing\\С#\\TaskPlanner\\TaskPlanner.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

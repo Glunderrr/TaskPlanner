@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CR+70Zm0Xp24mxovzYcyHvpLN5z+fGjsoUEuV6kUQFDg2NuQGkIZAQHYttpi0wWtLziP3s0VPwhBhIAsT+t/cg==",
+  "dgSpecHash": "4EdsSeWAM8U6e19TESYZg8NX0cRbLx8t91xT4f60OVA0Noxh0yI1AuxUctS+LjwIXKeHlMFmJt/1qsc59WtqOQ==",
   "success": true,
   "projectFilePath": "D:\\Programing\\С#\\TaskPlanner\\Domain.Logic\\Domain.Logic.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
