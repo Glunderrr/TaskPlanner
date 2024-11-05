@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4+5GDM59tlV1oaMBg1VhUEilqbl75JYEOGH+rGhUQKOkDEeKj78ANr3CoDZikWkv1Zzhullu2Cqt018dcgKVrQ==",
+  "success": true,
+  "projectFilePath": "D:\\Programing\\С#\\TaskPlanner\\DataAccess.Abstractions\\DataAccess.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

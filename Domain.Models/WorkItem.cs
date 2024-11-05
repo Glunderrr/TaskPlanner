@@ -38,12 +38,12 @@ public class WorkItem : ICloneable
         IsCompleted = random.Next(1) == 1;
     }
 
-    public Guid Id { get; } = Guid.NewGuid();
+    public Guid Id = Guid.NewGuid();
     public DateTime CreationDate = DateTime.Now.Date;
-    public DateTime DueDate { get; set; }
-    public Priority Priority { get; set; }
+    public DateTime DueDate;
+    public Priority Priority;
     public Complexity Complexity;
-    public string Title { get; set; }
+    public string Title;
     public string Description;
     public bool IsCompleted;
 
